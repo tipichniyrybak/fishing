@@ -3,4 +3,90 @@ html, body, #map {
             height: 100%;
             margin: 0;
             padding: 0;
+    
         }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.navbar {
+    
+    grid-column: span 12;
+    background: #586F8C;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 2px rgba(0, 0, 0, 0.12);
+}
+.navba > a {
+    color: #fff;
+}
+.left-sidebar {
+     grid-column: span 3;
+     background: #FFFFFF;
+     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 2px rgba(0, 0, 0, 0.12);
+}
+.main-frame {
+     grid-column: span 6;
+     background: #FFFFFF;
+     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 2px rgba(0, 0, 0, 0.12);
+}
+.right-sidebar {
+     grid-column: span 3;
+     background: #FFFFFF;
+     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 2px rgba(0, 0, 0, 0.12);
+}
+.footer {
+    height: 100px;
+    background: #586F8C;
+    grid-column: span 12;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 2px rgba(0, 0, 0, 0.12);
+}
+.element {
+    padding: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 2px rgba(0, 0, 0, 0.12);
+}
+.nav-link{
+    color: white;
+}
+.navbar-brand {
+    color: white;
+}
+.avatar {
+    
+    grid-column: span 12;
+}
+.avatar > img {
+    display: flex;
+}
+.login {
+    float: right;
+}
+.profile-name {
+    grid-column: span 12;
+    text-align: center;
+   
+}
+.profile-name > a {
+    color: black;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+    text-align: center;
+
+}
+.profile-info {
+    grid-column: span 12;
+}
+.profile-nav > a {
+    width: 229px;
+    height: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+    text-align: center;
+}
